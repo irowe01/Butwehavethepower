@@ -1,34 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-h1{color: white;}
 h1 {
-    color: red;
+  color: aquamarine;
   font-family: verdana;
   font-size: 300%;
 }
-p  {
-  color: red;
+
+#lyrics {
+  color: white;
+  background-color: black;
   font-family: "Courier New";
-  font-size: 150%;
-  padding: 50;
-  width: 40;
+  font-size: 16px;
+  width: 300px;
+  margin: auto;
 }
 
 div {
-    width: 300px;
-    word-wrap: break-word;
-    position: relative;
-    left: 150px;
-    border: 3px solid rgb(243, 159, 3);
+  width: 300px;
+  word-wrap: break-word;
 }
-body {background-color: #a0a0a1;}
-</style>
-</head>
-<body>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
 
-</body>
-</html>
+body {
+  background-color: #a0a0a1;
+  text-align: center;
+}
